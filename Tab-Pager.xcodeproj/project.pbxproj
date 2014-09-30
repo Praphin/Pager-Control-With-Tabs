@@ -14,6 +14,11 @@
 		713A0DFD19DB0367007D85EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713A0DFC19DB0367007D85EC /* Images.xcassets */; };
 		713A0E0019DB0367007D85EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713A0DFE19DB0367007D85EC /* LaunchScreen.xib */; };
 		713A0E0C19DB0367007D85EC /* Tab_PagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0E0B19DB0367007D85EC /* Tab_PagerTests.m */; };
+		713A0E1919DB0429007D85EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0E1819DB0429007D85EC /* FirstViewController.m */; };
+		713A0E1C19DB0436007D85EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0E1B19DB0436007D85EC /* SecondViewController.m */; };
+		713A0E1F19DB043F007D85EC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0E1E19DB043F007D85EC /* ThirdViewController.m */; };
+		713A0E2219DB059B007D85EC /* TabPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0E2119DB059B007D85EC /* TabPagerViewController.m */; };
+		713A0E2719DB08F3007D85EC /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713A0E2619DB08F3007D85EC /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,17 @@
 		713A0E0519DB0367007D85EC /* Tab-PagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tab-PagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		713A0E0A19DB0367007D85EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		713A0E0B19DB0367007D85EC /* Tab_PagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tab_PagerTests.m; sourceTree = "<group>"; };
+		713A0E1719DB0429007D85EC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		713A0E1819DB0429007D85EC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		713A0E1A19DB0436007D85EC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		713A0E1B19DB0436007D85EC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		713A0E1D19DB043F007D85EC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		713A0E1E19DB043F007D85EC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		713A0E2019DB059B007D85EC /* TabPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabPagerViewController.h; sourceTree = "<group>"; };
+		713A0E2119DB059B007D85EC /* TabPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabPagerViewController.m; sourceTree = "<group>"; };
+		713A0E2319DB06C4007D85EC /* PagerHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagerHeaderFile.h; sourceTree = "<group>"; };
+		713A0E2519DB08F3007D85EC /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		713A0E2619DB08F3007D85EC /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +104,8 @@
 				713A0DF919DB0367007D85EC /* Main.storyboard */,
 				713A0DFC19DB0367007D85EC /* Images.xcassets */,
 				713A0DFE19DB0367007D85EC /* LaunchScreen.xib */,
+				713A0E1519DB03E9007D85EC /* Classes */,
+				713A0E1619DB03E9007D85EC /* Repository */,
 				713A0DEF19DB0367007D85EC /* Supporting Files */,
 			);
 			path = "Tab-Pager";
@@ -117,6 +135,31 @@
 				713A0E0A19DB0367007D85EC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		713A0E1519DB03E9007D85EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				713A0E1719DB0429007D85EC /* FirstViewController.h */,
+				713A0E1819DB0429007D85EC /* FirstViewController.m */,
+				713A0E1A19DB0436007D85EC /* SecondViewController.h */,
+				713A0E1B19DB0436007D85EC /* SecondViewController.m */,
+				713A0E1D19DB043F007D85EC /* ThirdViewController.h */,
+				713A0E1E19DB043F007D85EC /* ThirdViewController.m */,
+				713A0E2519DB08F3007D85EC /* FourthViewController.h */,
+				713A0E2619DB08F3007D85EC /* FourthViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		713A0E1619DB03E9007D85EC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				713A0E2019DB059B007D85EC /* TabPagerViewController.h */,
+				713A0E2119DB059B007D85EC /* TabPagerViewController.m */,
+				713A0E2319DB06C4007D85EC /* PagerHeaderFile.h */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713A0E2719DB08F3007D85EC /* FourthViewController.m in Sources */,
+				713A0E1C19DB0436007D85EC /* SecondViewController.m in Sources */,
 				713A0DF819DB0367007D85EC /* ViewController.m in Sources */,
+				713A0E1F19DB043F007D85EC /* ThirdViewController.m in Sources */,
 				713A0DF519DB0367007D85EC /* AppDelegate.m in Sources */,
 				713A0DF219DB0367007D85EC /* main.m in Sources */,
+				713A0E2219DB059B007D85EC /* TabPagerViewController.m in Sources */,
+				713A0E1919DB0429007D85EC /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -344,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tab-Pager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tab-Pager/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
